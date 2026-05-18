@@ -43,18 +43,18 @@ public class ProblemSet {
 	int numWords = words.length;
 	HashMap<String, Integer> wordFrequency = new HashMap<>();
 	for (int start = 0; start < words.length; start++) {
-    String word = words[start];
-    word = word.replaceAll("[^a-zA-Z]", "");
-    if (!word.isEmpty()) {
-        if (wordFrequency.containsKey(word)) {
-            wordFrequency.put(word, wordFrequency.get(word) + 1);
-        } 
-		else {
-            wordFrequency.put(word, 1);
-        }
-
-		}
+		String word = words[start];
+		word = word.replaceAll("[^a-zA-Z]", "");
+		if (!word.isEmpty()) {
+			if (wordFrequency.containsKey(word)) {
+				wordFrequency.put(word, wordFrequency.get(word) + 1);
+			} 
+			else {
+				wordFrequency.put(word, 1);
+			}
 	}
+	}
+	/// Outputs all gathered data
 	System.out.println("Total Characters: " + numChars);
 	System.out.println("Total Words: " + numWords);
 	System.out.println("Total Vowels: " + numVowels);
