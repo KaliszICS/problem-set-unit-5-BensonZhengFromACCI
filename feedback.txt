@@ -1,0 +1,9 @@
+K(30%): 100
+I(30%): 93
+C(10%): 90
+A(30%): 93
+94.8% of 90 - 85.32%
+
+Removing extra words and symbols should be done after you do you word, vowel etc checks.  it is only for option 3s and frequency words that they should be removed.
+Use functions to help break up your code and make it easier to both debug and read.
+Space your code a bit better to separate it from being one big wall.

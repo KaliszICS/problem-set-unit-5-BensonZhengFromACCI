@@ -10,7 +10,7 @@ import java.util.HashMap;
         * Date Last Modified: May 18th, 2026
 
         */
-public class ProblemSet {
+public class TextAnalyzer {
 	public static void main(String args[]) {
 		Scanner input = new Scanner(System.in);
 		/// introduces code and prompts input
